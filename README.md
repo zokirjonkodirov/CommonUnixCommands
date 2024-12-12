@@ -73,3 +73,44 @@ A collection of the most commonly used Unix commands with simple, practical exam
    ```bash
    diff file1.txt file2.txt
   ```
+## **Disk and System Info**
+**`df`**: Disk space usage.
+   ```bash
+   df -h
+  ```
+**`du`**: Disk usage of a directory.
+   ```bash
+   du -sh folder_name
+  ```
+**`top`**: Display running processes.
+   ```bash
+   top
+  ```
+**`ps`**: View running processes.
+   ```bash
+   ps -aux
+  ```
+**`kill`**: Terminate a process.
+   ```bash
+   kill PID
+  ```
+**`uptime`**: Show system uptime.
+   ```bash
+   uptime
+  ```
+**`who`**: Show logged-in users.
+   ```bash
+   who
+  ```
+**`date`**: Display current date and time.
+   ```bash
+   date
+  ```
+**`cal`**: Show the calendar.
+   ```bash
+   cal
+  ```
+**`hostname`**: Display the computer's hostname.
+   ```bash
+   hostname
+  ```
