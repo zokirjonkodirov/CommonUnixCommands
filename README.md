@@ -147,3 +147,17 @@ A collection of the most commonly used Unix commands with simple, practical exam
    ```bash
    netstat -an
   ```
+## **Compression and Archiving**
+**`zip`**: Compress files into a .zip archive.
+   ```bash
+   zip archive.zip file1 file2
+  ```
+**`unzip`**: Extract a .zip archive.
+   ```bash
+   unzip archive.zip
+  ```
+**`tar`**: Compress or extract tar archives.
+   ```bash
+   tar -cvf archive.tar folder_name
+   tar -xvf archive.tar
+  ```
