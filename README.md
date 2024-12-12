@@ -114,3 +114,36 @@ A collection of the most commonly used Unix commands with simple, practical exam
    ```bash
    hostname
   ```
+## **Networking**
+**`ping`**: Test network connectivity.
+   ```bash
+   ping google.com
+  ```
+**`ifconfig`**: View network configuration.
+   ```bash
+   ifconfig
+  ```
+**`curl`**: Make HTTP requests.
+   ```bash
+   curl https://example.com
+  ```
+**`wget`**: Download files from the web.
+   ```bash
+   wget https://example.com/file.zip
+  ```
+**`scp`**: Securely copy files between systems.
+   ```bash
+   scp file.txt user@host:/path/to/destination
+  ```
+**`uptime`**: Show system uptime.
+   ```bash
+   uptime
+  ```
+**`ssh`**: Connect to a remote system.
+   ```bash
+   ssh user@hostname
+  ```
+**`netstat`**: View network statistics.
+   ```bash
+   netstat -an
+  ```
