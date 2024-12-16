@@ -1,5 +1,5 @@
 # CommonUnixCommands
-A collection of the most commonly used Unix commands with simple, practical examples
+A collection of the most commonly used Unix commands with simple, practical examples. Quick reference for daily tasks and advanced operations.
 
 ## **File and Directory Management**
 **`ls`**: List files and directories.
@@ -160,4 +160,55 @@ A collection of the most commonly used Unix commands with simple, practical exam
    ```bash
    tar -cvf archive.tar folder_name
    tar -xvf archive.tar
+  ```
+## **Permissions and Ownership**
+**`chmod`**: Change file permissions.
+   ```bash
+   chmod 755 file.txt
+  ```
+**`chown`**: Change file ownership.
+   ```bash
+   chown user:group file.txt
+  ```
+**`sudo`**: Run commands with elevated privilegas.
+   ```bash
+   sudo command
+  ```
+## **Search and Filters**
+**`sort`**: Sort lines in a file.
+   ```bash
+   sort file.txt
+  ```
+**`uniq`**: Remove duplicate lines.
+   ```bash
+   uniq file.txt
+  ```
+**`cut`**: Extract sections of text.
+   ```bash
+   cut -d ',' -f file.csv
+  ```
+**`awk`**: Text processing and pattern scanning.
+   ```bash
+   awk '{print $1}' file.txt
+  ```
+**`sed`**: Stream editor for search and replace.
+   ```bash
+   sed 's/old/new/g' file.txt
+  ```
+## **System Utilities**
+**`echo`**: Print text to terminal.
+   ```bash
+   echo "Hello, World!"
+  ```
+**`clear`**: Clear the terminal screen.
+   ```bash
+   clear
+  ```
+**`history`**: Show command history.
+   ```bash
+   history
+  ```
+**`exit`**: Exit the terminal.
+   ```bash
+   exit
   ```
